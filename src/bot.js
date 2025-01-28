@@ -110,7 +110,7 @@ const sendGames = async (channelID) => {
 
 // Fetch posts from Reddit using node-fetch and return the body
 const fetchPosts = async () => {
-  const targetURL = 'https://reddit.com/r/gamedeals/new.json?sort=new&t=week&limit=100';
+  const targetURL = 'https://reddit.com/r/VinylReleases/new.json?sort=new&t=week&limit=100';
 
   try {
     const res = await nodeFetch(targetURL);
